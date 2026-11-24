@@ -101,9 +101,6 @@ A função dorme 5 s, mas o template limitava a execução a 3 s, então o Lambd
 
 Faz sentido em tarefas curtas, sem estado e acionadas por evento ou HTTP, como gerar a guia de transporte quando uma requisição chega ou disparar uma notificação para o hospital. A carga é irregular, a execução é rápida e se paga apenas pelo uso. Não faz sentido em partes que precisam manter estado ou conexão por muito tempo, como o rastreamento em tempo real das bolsas durante o transporte, que pede um serviço sempre ativo, ou em processamentos que passem dos 15 minutos.
 
-## Vídeo
-
-Gravação de tela de até 3 minutos mostrando a invocação com evento, a chamada por HTTP e o erro de tempo limite. O link foi entregue no Google Classroom junto com o link deste repositório.
 
 ## Uso de IA
 
